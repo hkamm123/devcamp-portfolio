@@ -17,7 +17,6 @@ class PortfoliosController < ApplicationController
         format.html { render :new }
       end
     end
-  end
   
   def edit
       @portfolio_item = Portfolio.find(params[:id])
