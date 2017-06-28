@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   include SetSource
   
   include CurrentUserConcern
+  
+  include DefaultPageContent
+  
+  before_action :set_page_defaults
 end
