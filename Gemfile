@@ -55,3 +55,4 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'jquery-rails'
+gem 'hkamm_view_tool', git: 'https://github.com/hkamm123/hkamm_view_tool'

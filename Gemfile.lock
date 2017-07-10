@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/hkamm123/hkamm_view_tool
+  revision: b70e79a852a3e4d81b4d7178c1fbd2bb7fa0a291
+  specs:
+    hkamm_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -197,6 +203,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
+  hkamm_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
