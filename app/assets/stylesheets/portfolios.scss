@@ -2,6 +2,7 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  background-color: #292b2c;
 }
 
 .navbar {
@@ -57,4 +58,12 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.navbar button {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/arrow-down-128.png');  
 }
