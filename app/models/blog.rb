@@ -19,5 +19,5 @@ class Blog < ApplicationRecord
     order("created_at DESC")
   end
   
-#  belongs_to :topic
+  belongs_to :topic
 end
